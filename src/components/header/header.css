@@ -1,0 +1,25 @@
+header nav {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size: 14px;
+  column-gap: 12px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+header nav a:nth-child(1) {
+  background-color: #1a73e8;
+  color: #fff;
+  padding: 9px 23px;
+  border-radius: 4px;
+}
+
+header img {
+  width: 25px;
+  cursor: pointer;
+}
