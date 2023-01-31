@@ -14,8 +14,14 @@ main form fieldset:nth-child(1) {
     justify-content: space-between;
     padding:10px 12px;
     border-radius: 24px;
-    width: 550px;
+    width: 600px;
     margin-bottom: 20px;
+}
+
+main form fieldset:nth-child(1):hover {
+    background-color: #fff;
+box-shadow: 0 1px 6px rgba(32,33,36,.28);
+border-color: rgba(223,225,229,0);
 }
 
 main form fieldset:nth-child(1) img {
@@ -31,7 +37,7 @@ main form fieldset:nth-child(1) input {
 main form fieldset:nth-child(2) {
     display: flex;
     justify-content: space-evenly;
-    padding: 0 150px;
+    padding: 0 125px;
 }
 
 main form fieldset:nth-child(2) button {
@@ -42,6 +48,7 @@ main form fieldset:nth-child(2) button {
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     cursor: pointer;
+    min-width: 140px;
 }
 
 main form fieldset:nth-child(2) button:hover {
@@ -49,4 +56,14 @@ main form fieldset:nth-child(2) button:hover {
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
+}
+
+@media screen and (max-width:610px) {
+    main form fieldset:nth-child(1) {
+        width: auto;
+    }
+
+    main form fieldset:nth-child(2) {
+        column-gap: 10px;
+    }
 }

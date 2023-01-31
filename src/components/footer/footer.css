@@ -1,0 +1,34 @@
+footer {
+    height: calc(30vh - 55px);
+    display: flex;
+    align-items: flex-end;
+}
+footer .footer-container {
+    padding: 16px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+
+footer .footer-container div {
+    display: flex;
+    column-gap: 30px;
+}
+
+footer a {
+    color: #70757a;
+    font-size: 14px;
+}
+
+footer a:hover {
+    text-decoration:underline;
+}
+
+@media screen and (max-width:620px){
+    footer .footer-container {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+}
