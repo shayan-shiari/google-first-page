@@ -10,3 +10,8 @@ ul,li {
 a {
     text-decoration: none;
 }
+
+fieldset, input,button {
+    border: none;
+    outline: none;
+}
